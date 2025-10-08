@@ -1,0 +1,105 @@
+@import url('./global.css');
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-header ul li a{
+    color: var(--color-secondary-dark);
+    text-decoration: none;
+    font-family: var(--font-body);
+}
+
+.btn-header{
+    background-color: var(--color-primary-orange);
+    padding: 12px 30px;
+    border-radius: 15px 3px;
+    color: var(--color-secondary-white);
+    text-decoration: none;
+    font-family: var(--font-title);
+    font-size: var(--font-button-size);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 80px; 
+    padding: 60px 0px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-title);
+    width: 562px;
+}
+
+.highlighted-word{
+    color: var(--color-primary-orange);
+}
+
+.content-main p{
+    font-size: var(--font-body-size);
+    color: var(--color-secondary-l-gray);
+    font-family: var(--font-body);
+    width: 544px;
+    line-height: 30px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+}
+
+.section-differences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0px;
+}
+
+.differences-cards-container{
+    display: flex;
+    gap: 70px;
+}
+
+.differences-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--color-secondary-l-gray);
+    border-radius: 10px;     
+    text-align: center;   
+}
+
+.differences-card h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width:  181px;   
+}
+
+.differences-card p{
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
